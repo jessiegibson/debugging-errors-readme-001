@@ -81,7 +81,7 @@ NoMethodError: undefined method `reverse' for nil:NilClass
 
 ## Argument Errors
 
-Argument errors occur when methods are passed too few or too many arguments. For instance, let's say you have a simple method, called `calculate_interest_over_first_year`, which takes the value of a loan and find the amount of interest that accumumlates over the loan's first year given that the annual interest rate is 5.25%:
+Argument errors occur when methods are passed too few or too many arguments. For instance, let's say you have a simple method, called `calculate_interest_over_first_year`, which takes the value of a loan and finds the amount of interest that accumulates over the loan's first year given that the annual interest rate is 5.25%:
 
 ```ruby
 def calculate_interest(loan_amount)
@@ -118,7 +118,7 @@ Now that you passed the method a value for loan_amount, it will calculate the fi
 
 ## TypeErrors
 
-When you try and do a mathematical operation on two objects of a different type.  For example if you try and add a string and an integer, Ruby will complain.
+TypeErrors occur When you try and do a mathematical operation on two objects of a different type.  For example if you try and add a string and an integer, Ruby will complain.
 
 ```ruby
 1 + "1"
@@ -145,4 +145,4 @@ Ruby is telling you that it is trying to convert the string you passed as the in
 
 ## Conclusion
 
-There are many other errors that can occur in Ruby, this just covered the most common errors encountered when beginning to code in Ruby. Ruby errors are pretty descriptive and there to help out so always see if the error is offering you a hint about your code.
+There are many other errors that can occur in Ruby, this just covered the most common errors encountered when beginning to code in Ruby. Ruby errors are pretty descriptive and there to help out, so always see if the error is offering you a hint about your code.
